@@ -1,0 +1,676 @@
+[
+    {
+        "name": "PostgreSQL (Generic) - postgres",
+        "type": "connection",
+        "children": [
+            {
+                "name": "playground_temp_tbisp",
+                "type": "database",
+                "children": [
+                    {
+                        "name": "Schemas",
+                        "type": "schema",
+                        "children": [
+                            {
+                                "name": "Accounts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Contacts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "account",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leads",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profiles",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Administator",
+                        "type": "schema"
+                    },
+                    {
+                        "name": "Roles",
+                        "type": "schema",
+                        "children": [
+                            {
+                                "name": "Accounts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Contacts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "account",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leads",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profiles",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "postgis_24_simple",
+                "type": "database"
+            },
+            {
+                "name": "postgres",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "PostgreSQL - ident",
+        "type": "connection",
+        "children": [
+            {
+                "name": "playground_ident",
+                "type": "database",
+                "children": [
+                    {
+                        "name": "Schemas",
+                        "type": "schema",
+                        "children": [
+                            {
+                                "name": "Accounts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Contacts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "account",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leads",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profiles",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Administator",
+                        "type": "schema"
+                    },
+                    {
+                        "name": "Roles",
+                        "type": "schema"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PostgreSQL - test",
+        "type": "connection",
+        "children": [
+            {
+                "name": "playground_test",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "SQLite",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database"
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database",
+                "children": [
+                    {
+                        "name": "Schemas",
+                        "type": "schema",
+                        "children": [
+                            {
+                                "name": "Accounts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Contacts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "account",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leads",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profiles",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Administator",
+                        "type": "schema"
+                    },
+                    {
+                        "name": "Roles",
+                        "type": "schema"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SQLite - test",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database",
+                "children": [
+                    {
+                        "name": "Schemas",
+                        "type": "schema",
+                        "children": [
+                            {
+                                "name": "Accounts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Contacts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "account",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leads",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profiles",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Administator",
+                        "type": "schema"
+                    },
+                    {
+                        "name": "Roles",
+                        "type": "schema"
+                    }
+                ]
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "SQLite - test1",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database"
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "SQLite - test2",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database"
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "SQLite - test3",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database"
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "SQLite - test4",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database"
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database"
+            }
+        ]
+    },
+    {
+        "name": "SQLite - test5",
+        "type": "connection",
+        "children": [
+            {
+                "name": "SQLite - Chinook",
+                "type": "database"
+            },
+            {
+                "name": "SQLite - test",
+                "type": "database",
+                "children": [
+                    {
+                        "name": "Schemas",
+                        "type": "schema",
+                        "children": [
+                            {
+                                "name": "Accounts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Contacts",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "account",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "firstName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "lastName",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "email",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "phone",
+                                        "type": "column"
+                                    },
+                                    {
+                                        "name": "location",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leads",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Profiles",
+                                "type": "table",
+                                "children": [
+                                    {
+                                        "name": "column1",
+                                        "type": "column"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Administator",
+                        "type": "schema"
+                    },
+                    {
+                        "name": "Roles",
+                        "type": "schema"
+                    }
+                ]
+            }
+        ]
+    }
+]
