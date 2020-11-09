@@ -1,21 +1,21 @@
-.grid-container{
-    display: grid;
-    grid-template-columns: 25% 75%;
-    height: 100vh;
-    overflow: hidden;
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.grid-item{
-    border: 1px solid #ccc;
+.grid-item {
+  border: 1px solid #ccc;
 }
 
-.center-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.center-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.text-item{
-    font-size: 48px;
-    font-weight: 500;
+.text-item {
+  font-size: 48px;
+  font-weight: 500;
 }
